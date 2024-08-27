@@ -6,7 +6,9 @@ If you want to custom for your country phone number, please reach me via
 + Mobile phone: +84355172278
 
 Step to run application:
+
 #1 npm install axios cheerio url fs path
+
 #2 node crawler.js
 
 Note: Open crawler.js and chang these information

@@ -1,0 +1,23 @@
+Visited URLs:
+https://www.google.com/search?q=hotline+sdt+t%E1%BA%A1i+b%E1%BA%A3o+l%E1%BB%99c+facebook&client=opera&hs=hDx&sca_esv=ecd28fb0a3f715a7&sca_upv=1&biw=1205&bih=570&sxsrf=ADLYWII0jF7xWR2LB0LV23-5jhmSDLfkag%3A1724751532671&ei=rJ7NZsLEKM7k2roPx4rV8Aw&ved=0ahUKEwjCyriT8JSIAxVOslYBHUdFFc44ZBDh1QMIDw&oq=hotline+sdt+t%E1%BA%A1i+b%E1%BA%A3o+l%E1%BB%99c+facebook&gs_lp=Egxnd3Mtd2l6LXNlcnAiJmhvdGxpbmUgc2R0IHThuqFpIGLhuqNvIGzhu5ljIGZhY2Vib29rMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHSOv4BVAAWABwAXgBkAEAmAEAoAEAqgEAuAEMyAEAmAIBoAItmAMAiAYBkAYIkgcBMaAHAA&sclient=gws-wiz-serp&fbclid=IwY2xjawE6vPtleHRuA2FlbQIxMAABHbKSwXp6OiT3Yghns90yp3AXv8SJR_RVjpHuYTZB-3iCra1fTkqU963KqQ_aem_yehvyoUtCAAdOLx5t_M95w
+https://www.google.com/?sa=X&ved=0ahUKEwjX2pPduJWIAxXtaPUHHUBcGLwQOwgC
+https://mail.google.com/mail/?tab=wm&ogbl
+https://support.google.com/chrome/answer/6130773?hl=en-US
+https://support.google.com/accounts?hl=en-US&p=account_iph
+https://accounts.google.com/TOS?loc=VN&hl=en-US&privacy=true
+https://accounts.google.com/TOS?loc=VN&hl=en-US
+https://www.google.com/imghp?hl=vi&tab=wi&ogbl
+https://www.google.com.vn/intl/vi/about/products?tab=ih
+https://accounts.google.com/ServiceLogin?hl=vi&passive=true&continue=https://www.google.com/imghp%3Fhl%3Dvi%26tab%3Dwi%26ogbl&ec=GAZAAg
+https://www.google.com/webhp?hl=vi&tab=ii
+https://www.google.com/advanced_image_search?hl=vi&authuser=0
+https://www.google.com/intl/vi/ads/
+https://www.google.com/services/
+https://www.google.com/intl/vi/about.html
+https://www.google.com.vn/intl/vi/about/products?tab=wh
+https://www.google.com.vn/intl/vi/about/products?tab=wh#page-content
+https://www.google.com.vn/intl/vi/
+https://www.google.com.vn/intl/vi/products/
+https://www.google.com.vn/intl/vi/commitments/
+https://www.google.com.vn/intl/vi/stories/
+https://support.google.com/

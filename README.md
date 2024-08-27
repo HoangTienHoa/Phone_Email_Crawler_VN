@@ -11,7 +11,7 @@ Step to run application:
 
 #2 node crawler.js
 
-Note: Open crawler.js and chang these information
+Note: Open crawler.js and change these information
 + maxDepth = 3. It's a depth loop.
 + resultName = 'bds'. Your result file name
 + startUrl = 'your link'. Your link

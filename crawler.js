@@ -8,9 +8,6 @@ const path = require('path');
 // Updated Vietnamese phone number regex to handle non-digit separators
 const vietnamCellphoneRegex = /(?:\+84|0)[ .]?(\d[ .]?){9,10}/;
 
-//Land Line number
-//const vietnamLandlineRegex = /\(\d{2,3}\)[ .]?\d{1,4}[ .]?\d{1,4}[ .]?\d{1,4}/;
-
 // Email address regex
 const emailRegex = /[\w.+-]+@[\w.-]+\.[a-zA-Z]{2,}/;
 
@@ -18,11 +15,9 @@ const visitedUrls = new Set();
 const phoneNumbers = new Set();
 const emails = new Set();
 
-const maxDepth = 3,// Độ sâu khi truy cập vào từng link
-    resultName = 'bds',// Tên file xuất kết quả
-    //startUrl = 'https://www.google.com/search?q=nha+bao+loc&oq=nha+bao+loc&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQABgTGIAEMgoIAhAAGBMYFhgeMgwIAxAAGA8YExgWGB4yCggEEAAYExgWGB4yCggFEAAYExgWGB4yCggGEAAYExgWGB4yBggHEEUYQdIBCDM0MzBqMGo5qAIAsAIA&sourceid=chrome&ie=UTF-8';
+const maxDepth = 3,
+    resultName = 'bds',
     startUrl = 'https://www.google.com/search?q=hotline+sdt+t%E1%BA%A1i+b%E1%BA%A3o+l%E1%BB%99c+facebook&client=opera&hs=hDx&sca_esv=ecd28fb0a3f715a7&sca_upv=1&biw=1205&bih=570&sxsrf=ADLYWII0jF7xWR2LB0LV23-5jhmSDLfkag%3A1724751532671&ei=rJ7NZsLEKM7k2roPx4rV8Aw&ved=0ahUKEwjCyriT8JSIAxVOslYBHUdFFc44ZBDh1QMIDw&oq=hotline+sdt+t%E1%BA%A1i+b%E1%BA%A3o+l%E1%BB%99c+facebook&gs_lp=Egxnd3Mtd2l6LXNlcnAiJmhvdGxpbmUgc2R0IHThuqFpIGLhuqNvIGzhu5ljIGZhY2Vib29rMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHSOv4BVAAWABwAXgBkAEAmAEAoAEAqgEAuAEMyAEAmAIBoAItmAMAiAYBkAYIkgcBMaAHAA&sclient=gws-wiz-serp&fbclid=IwY2xjawE6vPtleHRuA2FlbQIxMAABHbKSwXp6OiT3Yghns90yp3AXv8SJR_RVjpHuYTZB-3iCra1fTkqU963KqQ_aem_yehvyoUtCAAdOLx5t_M95w';
-    // Đường dẫn cần search.
 
 // Function to generate a timestamped filename for each data type
 function getTimestampedFilePath(prefix) {
@@ -35,13 +30,9 @@ function getTimestampedFilePath(prefix) {
 // Function to extract phone numbers from text
 function extractPhoneNumbers(text) {
     const cellphoneMatches = text.match(vietnamCellphoneRegex);
-    //const landlineMatches = text.match(vietnamLandlineRegex);
     if (cellphoneMatches) {
         cellphoneMatches.forEach(number => phoneNumbers.add(number));
     }
-    /*if (landlineMatches) {
-        landlineMatches.forEach(number => phoneNumbers.add(number));
-    }*/
 }
 
 // Function to extract email addresses from text
@@ -109,7 +100,7 @@ async function crawl(url, depth) {
             extractEmails(text);
         });
 
-       // console.log('Phone Numbers Found:', [...phoneNumbers]);
+        // console.log('Phone Numbers Found:', [...phoneNumbers]);
         //console.log('Email Addresses Found:', [...emails]);
 
         // Find and crawl links on the current page
